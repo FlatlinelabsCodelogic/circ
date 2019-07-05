@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.exportColumns {
+    display:none;
+}
+
+#exportColumns {
+    display:none;
+}
+
+div#exportColumns{
+    display:none;
+}
+
