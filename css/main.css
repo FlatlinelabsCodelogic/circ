@@ -1,0 +1,704 @@
+/* BODY / MISC */
+
+
+body {
+	border: 0; border-spacing: 0;
+}
+
+html, body {
+	margin: 0; padding: 0; height: 100%; width: 100%;
+	/*background: #efefef; }*/
+
+form, ul, li, h1, h2 {
+	margin: 0; padding: 0; }
+
+img {
+	border: 0;
+}
+
+img.hidden {
+	border: 0;
+	display: none;
+}
+
+
+
+/* FONT */
+
+h1 {
+	font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; color: #009ee0; text-decoration: none; line-height: 18px;
+	margin: 0 0 10px 0;
+}
+
+h2 {
+	font-family: Tahoma, sans-serif; font-size: 16px; font-weight: normal; color: #a2a2a2; text-decoration: none; line-height: 18px;
+	margin: 0; padding: 0 0 15px 0;
+}
+
+
+/* DIV */
+
+#logo {
+	width: 170px; height: 60px;
+	margin-left: 820px;
+}
+
+#body {
+	width: 100%; min-width: 995px; min-height: 480px;
+	margin-top: 10px;
+	background: url(../images/main/body.gif) repeat-x;
+}
+
+#bodyimage {
+	width: 130px; height: 480px;
+	float: left;
+}
+
+#bodyimage img {
+	position: absolute; z-index: 2; display: none;
+}
+
+#menu {
+	width: 180px; min-height: 480px;
+	float: left;
+	background: #aed731;
+}
+
+#produktmenu {
+	width: 180px;
+}
+
+#produktmenu li {
+	width: 180px; height: 28px;
+	list-style: none outside none;
+	border-bottom: 1px solid #ffc06e;
+}
+
+#produktmenu li a:link, #produktmenu li a:visited, #produktmenu li a:active {
+	width: 165px; height: 22px; padding: 6px 0 0 15px;
+	font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;
+	background: #fb9611;
+	display: block;
+}
+
+#produktmenu li a:hover {
+	width: 165px; height: 22px; padding: 6px 0 0 15px;
+	font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;
+	background: #ee8e10;
+	display: block;
+}
+
+
+#produktmenu li.sub {
+	width: 180px; height: 28px;
+	list-style: none outside none;
+	border-bottom: 1px solid #ffc06e;
+}
+
+#produktmenu li.sub a:link, #produktmenu li.sub a:visited, #produktmenu li.sub a:active {
+	width: 150px; height: 22px; padding: 6px 0 0 30px;
+	font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;
+	background: #fcab41 url(../images/main/arrow.gif) no-repeat 160px;
+	display: block;
+}
+
+#produktmenu li.sub a:hover {
+	background: #efa23e url(../images/main/arrow.gif) no-repeat 160px;
+}
+
+#mainmenu_red {
+	width: 180px;
+}
+
+#mainmenu_red li {
+	width: 180px; height: 28px;
+	list-style: none outside none;
+	border-bottom: 1px solid #ff689c;
+}
+
+#mainmenu_red li a:link, #mainmenu_red li a:visited, #mainmenu_red li a:active {
+	width: 165px; height: 22px; padding: 6px 0 0 15px;
+	font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;
+	background: #d81c5d;
+	display: block;
+}
+
+#mainmenu_red li a:hover {
+	background: #cd1b58;
+}
+
+#mainmenu_blue {
+	width: 180px;
+}
+
+#mainmenu_blue li {
+	width: 180px; height: 28px;
+	list-style: none outside none;
+	border-bottom: 1px solid #b1e8ff;
+}
+
+#mainmenu_blue li a:link, #mainmenu_blue li a:visited, #mainmenu_blue li a:active {
+	width: 165px; height: 22px; padding: 6px 0 0 15px;
+	font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;
+	background: #009ee0;
+	display: block;
+}
+
+#mainmenu_blue li a:hover {
+	background: #008ec9;
+}
+
+
+#content {
+	width: 620px; min-height: 420px;
+	float: left;
+	padding: 30px;
+	background: #ffffff;
+	font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #666666; text-decoration: none; line-height: 20px;
+}
+
+#content a {
+	font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #868686; text-decoration: underline; line-height: 20px;
+}
+
+#content a:hover {
+	font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #000000; text-decoration: none; line-height: 20px;
+}
+
+#content table.produktdetails td {
+	padding: 3px 8px; vertical-align: top;
+}
+
+#content table.produktdetails tr:nth-child(odd) td {
+	background: #f3f3f3;
+}
+
+#content .red {
+	color: #e42e2c;
+}
+
+#content img.right {
+	float: right; margin: 0 0 10px 25px;
+}
+
+div#prozess_erfolg {
+	display: block; padding: 10px 20px; margin: 0 0 20px 0;
+	color: #ffffff;	background-color: #91cc02;
+	border-radius: 6px; -moz-border-radius: 6px; -khtml-border-radius: 6px;
+}
+
+div#prozess_fehler {
+	display: block; padding: 10px 20px; margin: 0 0 20px 0;
+	color: #ffffff;	background: url(../images/main/prozess_fehler_bg.png);
+	border-radius: 6px; -moz-border-radius: 6px; -khtml-border-radius: 6px;
+}
+
+#nummerierung {
+	width: 620px; height: 25px; display: block;	float: none; clear: both; margin: 20px 0;
+	text-align: right;
+}
+
+#nummerierung a {
+	padding: 4px 8px; margin: 0 4px 0 0;
+	font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #868686; text-decoration: none;
+	background: #f3f3f3;
+}
+
+#nummerierung a:hover, #nummerierung a.selected {
+	color: #ffffff;
+	background: #009ee0;
+}
+
+#nummerierung a.selected {
+	color: #ffffff; font-weight: bold;
+	background: #009ee0;
+}
+
+#nummerierung a.disabled, #nummerierung a.disabled:hover {
+	cursor: default;
+	color: #868686;
+	background: #ffffff;
+}
+
+#produkt {
+	width: 143px; min-height: 220px; float: left; margin: 0 6px 20px 6px;
+	-webkit-box-shadow: 0px 0px 2px 0px #cccccc; -moz-box-shadow: 0px 0px 2px 0px #cccccc; box-shadow: 0px 0px 2px 0px #cccccc;
+}
+
+#produkt:hover {
+	-webkit-box-shadow: 0px 0px 6px 0px #aaaaaa; -moz-box-shadow: 0px 0px 6px 0px #aaaaaa; box-shadow: 0px 0px 6px 0px #aaaaaa;
+}
+
+#produkt a {
+	display: block;
+}
+
+#produkt img {
+    float: left;
+}
+
+#produkt a.text {
+	width: 119px; padding: 8px 12px 5px 12px; display: block; float: none; clear: both; text-align: center;
+	font-family: Tahoma, sans-serif; font-size: 11px; line-height: 18px; color: #868686; text-decoration: none;
+}
+
+
+select {
+	width: 150px;
+    padding: 3px;
+	border: 1px solid #dedede;
+	background: #ffffff;
+	font-family: sans-serif; font-size: 12px; font-weight: normal; color: #333333; text-decoration: none;
+}
+
+
+input.text {
+	width: 140px;
+    padding: 3px;
+	border: 1px solid #dedede;
+	background: #ffffff;
+	font-family: sans-serif; font-size: 12px; font-weight: normal; color: #333333; text-decoration: none;
+}
+
+input.datei {
+    padding: 3px;
+	background: #ffffff;
+	font-family: sans-serif; font-size: 12px; font-weight: normal; color: #333333; text-decoration: none;
+}
+
+input.button {
+	width: 125px; height: 29px;
+	padding: 0; margin: 0; border: 0;
+}
+
+input.icon {
+	width: 22px; height: 22px;
+	padding: 0; margin: 0; border: 0;
+}
+
+input.icon_klein {
+	width: 15px; height: 15px;
+	padding: 0; margin: 0; border: 0;
+}
+
+textarea.text {
+	width: 380px; height: 187px; padding: 4px;
+	font-family: sans-serif; font-size: 12px; color: #333333; line-height: 18px;
+    border: 1px solid #d6d6d6;
+}
+
+
+
+/* ##########  SCROLLER  ########## */
+
+#scroller {
+	width: 620px; height: 70px;
+	position: relative;	overflow: hidden;
+	margin: 15px 0 30px 0;
+}
+
+#scroller .sbox {
+	white-space: nowrap; line-height: 60px;	font-size: 60px;
+}
+
+#scroller .sbox img {
+	padding: 0; margin: 0;
+}
+
+/* CSS Hack Safari */
+#dummy {;# }
+
+.scroller_container_left_right {
+ overflow: auto;
+}
+
+
+/* ##########  KWICKS  ########## */
+
+#kwicks {
+	width: 620px;
+	position: relative; margin: 0; padding: 0;
+}
+
+#kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 150px; height: 170px;
+	/*do not change these */
+	display: block;	overflow: hidden; padding: 0; margin: 0;
+}
+
+#kwicks .kwick_1 {	background: url(../images/kwicks/druckknoepfe2.jpg) no-repeat; }
+#kwicks .kwick_2 {	background: url(../images/kwicks/ringe2.jpg) no-repeat; }
+#kwicks .kwick_3 {	background: url(../images/kwicks/anhaenger2.jpg) no-repeat; }
+#kwicks .kwick_4 {	background: url(../images/kwicks/armbaender2.jpg) no-repeat; }
+
+#kwicks a {
+	width: 250px; height: 170px;
+	display: block;
+}
+
+
+/* ##########  BUTTONS  ########## */
+
+.button {
+	display: inline-block; *display: inline; margin: 0 2px; padding: .5em 2em .55em; outline: none; cursor: pointer;
+	font: 14px/100% Arial, Helvetica, sans-serif; text-shadow: 0 1px 1px rgba(0,0,0,.3); text-decoration: none; vertical-align: baseline; text-align: center;
+	-webkit-border-radius: .5em; -moz-border-radius: .5em; border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.bigrounded {
+	-webkit-border-radius: 2em; -moz-border-radius: 2em; border-radius: 2em;
+}
+
+.medium {
+	padding: .4em 1.5em .42em;
+	font-size: 12px;
+}
+.small {
+	padding: .2em 1em .275em;
+	font-size: 11px;
+}
+
+.gray {
+	color: #e9e9e9;
+	border: solid 1px #555;
+	background: #6e6e6e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+	background: -moz-linear-gradient(top,  #888,  #575757);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+}
+.gray:hover {
+	background: #616161;
+	background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));
+	background: -moz-linear-gradient(top,  #757575,  #4b4b4b);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');
+}
+.gray:active {
+	color: #afafaf;
+	background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
+	background: -moz-linear-gradient(top,  #575757,  #888);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#888888');
+}
+<p>/* BODY / MISC */<br>
+</p>
+<p>&nbsp;</p>
+<p>form, ul, li, h1, h2 {<br>
+margin: 0; padding: 0; }</p>
+<p>img {<br>
+  border: 0;<br>
+  }</p>
+<p>img.hidden {<br>
+  border: 0;<br>
+  display: none;<br>
+  }</p>
+<p>&nbsp;</p>
+<p>/* FONT */</p>
+<p>h1 {<br>
+  font-family: Tahoma, sans-serif; font-size: 20px; font-weight: normal; color: #009ee0; text-decoration: none; line-height: 18px;<br>
+  margin: 0 0 10px 0;<br>
+  }</p>
+<p>h2 {<br>
+  font-family: Tahoma, sans-serif; font-size: 16px; font-weight: normal; color: #a2a2a2; text-decoration: none; line-height: 18px;<br>
+  margin: 0; padding: 0 0 15px 0;<br>
+  }<br>
+</p>
+<p>/* DIV */</p>
+<p>#logo {<br>
+  width: 170px; height: 60px;<br>
+  margin-left: 820px;<br>
+  }</p>
+<p>#body {<br>
+  width: 100%; min-width: 995px; min-height: 480px;<br>
+  margin-top: 10px;<br>
+  background: url(../images/main/body.gif) repeat-x;<br>
+  }</p>
+<p>#bodyimage {<br>
+  width: 130px; height: 480px;<br>
+  float: left;<br>
+  }</p>
+<p>#bodyimage img {<br>
+  position: absolute; z-index: 2; display: none;<br>
+  }</p>
+<p>#menu {<br>
+  width: 180px; min-height: 480px;<br>
+  float: left;<br>
+  background: #aed731;<br>
+  }</p>
+<p>#produktmenu {<br>
+  width: 180px;<br>
+  }</p>
+<p>#produktmenu li {<br>
+  width: 180px; height: 28px;<br>
+  list-style: none outside none;<br>
+  border-bottom: 1px solid #ffc06e;<br>
+  }</p>
+<p>#produktmenu li a:link, #produktmenu li a:visited, #produktmenu li a:active {<br>
+  width: 165px; height: 22px; padding: 6px 0 0 15px;<br>
+  font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;<br>
+  background: #fb9611;<br>
+  display: block;<br>
+  }</p>
+<p>#produktmenu li a:hover {<br>
+  width: 165px; height: 22px; padding: 6px 0 0 15px;<br>
+  font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;<br>
+  background: #ee8e10;<br>
+  display: block;<br>
+  }<br>
+</p>
+<p>#produktmenu li.sub {<br>
+  width: 180px; height: 28px;<br>
+  list-style: none outside none;<br>
+  border-bottom: 1px solid #ffc06e;<br>
+  }</p>
+<p>#produktmenu li.sub a:link, #produktmenu li.sub a:visited, #produktmenu li.sub a:active {<br>
+  width: 150px; height: 22px; padding: 6px 0 0 30px;<br>
+  font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;<br>
+  background: #fcab41 url(../images/main/arrow.gif) no-repeat 160px;<br>
+  display: block;<br>
+  }</p>
+<p>#produktmenu li.sub a:hover {<br>
+  background: #efa23e url(../images/main/arrow.gif) no-repeat 160px;<br>
+  }</p>
+<p>#mainmenu_red {<br>
+  width: 180px;<br>
+  }</p>
+<p>#mainmenu_red li {<br>
+  width: 180px; height: 28px;<br>
+  list-style: none outside none;<br>
+  border-bottom: 1px solid #ff689c;<br>
+  }</p>
+<p>#mainmenu_red li a:link, #mainmenu_red li a:visited, #mainmenu_red li a:active {<br>
+  width: 165px; height: 22px; padding: 6px 0 0 15px;<br>
+  font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;<br>
+  background: #d81c5d;<br>
+  display: block;<br>
+  }</p>
+<p>#mainmenu_red li a:hover {<br>
+  background: #cd1b58;<br>
+  }</p>
+<p>#mainmenu_blue {<br>
+  width: 180px;<br>
+  }</p>
+<p>#mainmenu_blue li {<br>
+  width: 180px; height: 28px;<br>
+  list-style: none outside none;<br>
+  border-bottom: 1px solid #b1e8ff;<br>
+  }</p>
+<p>#mainmenu_blue li a:link, #mainmenu_blue li a:visited, #mainmenu_blue li a:active {<br>
+  width: 165px; height: 22px; padding: 6px 0 0 15px;<br>
+  font-family: Verdana, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fdf9ed; text-decoration: none; line-height: 16px;<br>
+  background: #009ee0;<br>
+  display: block;<br>
+  }</p>
+<p>#mainmenu_blue li a:hover {<br>
+  background: #008ec9;<br>
+  }<br>
+</p>
+<p>#content {<br>
+  width: 620px; min-height: 420px;<br>
+  float: left;<br>
+  padding: 30px;<br>
+  background: #ffffff;<br>
+  font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #666666; text-decoration: none; line-height: 20px;<br>
+  }</p>
+<p>#content a {<br>
+  font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #868686; text-decoration: underline; line-height: 20px;<br>
+  }</p>
+<p>#content a:hover {<br>
+  font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #000000; text-decoration: none; line-height: 20px;<br>
+  }</p>
+<p>#content table.produktdetails td {<br>
+  padding: 3px 8px; vertical-align: top;<br>
+  }</p>
+<p>#content table.produktdetails tr:nth-child(odd) td {<br>
+  background: #f3f3f3;<br>
+  }</p>
+<p>#content .red {<br>
+  color: #e42e2c;<br>
+  }</p>
+<p>#content img.right {<br>
+  float: right; margin: 0 0 10px 25px;<br>
+  }</p>
+<p>div#prozess_erfolg {<br>
+  display: block; padding: 10px 20px; margin: 0 0 20px 0;<br>
+  color: #ffffff;	background-color: #91cc02;<br>
+  border-radius: 6px; -moz-border-radius: 6px; -khtml-border-radius: 6px;<br>
+  }</p>
+<p>div#prozess_fehler {<br>
+  display: block; padding: 10px 20px; margin: 0 0 20px 0;<br>
+  color: #ffffff;	background: url(../images/main/prozess_fehler_bg.png);<br>
+  border-radius: 6px; -moz-border-radius: 6px; -khtml-border-radius: 6px;<br>
+  }</p>
+<p>#nummerierung {<br>
+  width: 620px; height: 25px; display: block;	float: none; clear: both; margin: 20px 0;<br>
+  text-align: right;<br>
+  }</p>
+<p>#nummerierung a {<br>
+  padding: 4px 8px; margin: 0 4px 0 0;<br>
+  font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; color: #868686; text-decoration: none;<br>
+  background: #f3f3f3;<br>
+  }</p>
+<p>#nummerierung a:hover, #nummerierung a.selected {<br>
+  color: #ffffff;<br>
+  background: #009ee0;<br>
+  }</p>
+<p>#nummerierung a.selected {<br>
+  color: #ffffff; font-weight: bold;<br>
+  background: #009ee0;<br>
+  }</p>
+<p>#nummerierung a.disabled, #nummerierung a.disabled:hover {<br>
+  cursor: default;<br>
+  color: #868686;<br>
+  background: #ffffff;<br>
+  }</p>
+<p>#produkt {<br>
+  width: 143px; min-height: 220px; float: left; margin: 0 6px 20px 6px;<br>
+  -webkit-box-shadow: 0px 0px 2px 0px #cccccc; -moz-box-shadow: 0px 0px 2px 0px #cccccc; box-shadow: 0px 0px 2px 0px #cccccc;<br>
+  }</p>
+<p>#produkt:hover {<br>
+  -webkit-box-shadow: 0px 0px 6px 0px #aaaaaa; -moz-box-shadow: 0px 0px 6px 0px #aaaaaa; box-shadow: 0px 0px 6px 0px #aaaaaa;<br>
+  }</p>
+<p>#produkt a {<br>
+  display: block;<br>
+  }</p>
+<p>#produkt img {<br>
+  float: left;<br>
+  }</p>
+<p>#produkt a.text {<br>
+  width: 119px; padding: 8px 12px 5px 12px; display: block; float: none; clear: both; text-align: center;<br>
+  font-family: Tahoma, sans-serif; font-size: 11px; line-height: 18px; color: #868686; text-decoration: none;<br>
+  }<br>
+</p>
+<p>select {<br>
+  width: 150px;<br>
+  padding: 3px;<br>
+  border: 1px solid #dedede;<br>
+  background: #ffffff;<br>
+  font-family: sans-serif; font-size: 12px; font-weight: normal; color: #333333; text-decoration: none;<br>
+  }<br>
+</p>
+<p>input.text {<br>
+  width: 140px;<br>
+  padding: 3px;<br>
+  border: 1px solid #dedede;<br>
+  background: #ffffff;<br>
+  font-family: sans-serif; font-size: 12px; font-weight: normal; color: #333333; text-decoration: none;<br>
+  }</p>
+<p>input.datei {<br>
+  padding: 3px;<br>
+  background: #ffffff;<br>
+  font-family: sans-serif; font-size: 12px; font-weight: normal; color: #333333; text-decoration: none;<br>
+  }</p>
+<p>input.button {<br>
+  width: 125px; height: 29px;<br>
+  padding: 0; margin: 0; border: 0;<br>
+  }</p>
+<p>input.icon {<br>
+  width: 22px; height: 22px;<br>
+  padding: 0; margin: 0; border: 0;<br>
+  }</p>
+<p>input.icon_klein {<br>
+  width: 15px; height: 15px;<br>
+  padding: 0; margin: 0; border: 0;<br>
+  }</p>
+<p>textarea.text {<br>
+  width: 380px; height: 187px; padding: 4px;<br>
+  font-family: sans-serif; font-size: 12px; color: #333333; line-height: 18px;<br>
+  border: 1px solid #d6d6d6;<br>
+  }</p>
+<p>&nbsp;</p>
+<p>/* ##########  SCROLLER  ########## */</p>
+<p>#scroller {<br>
+  width: 620px; height: 70px;<br>
+  position: relative;	overflow: hidden;<br>
+  margin: 15px 0 30px 0;<br>
+  }</p>
+<p>#scroller .sbox {<br>
+  white-space: nowrap; line-height: 60px;	font-size: 60px;<br>
+  }</p>
+<p>#scroller .sbox img {<br>
+  padding: 0; margin: 0;<br>
+  }</p>
+<p>/* CSS Hack Safari */<br>
+  #dummy {;# }</p>
+<p>.scroller_container_left_right {<br>
+  overflow: auto;<br>
+  }<br>
+</p>
+<p>/* ##########  KWICKS  ########## */</p>
+<p>#kwicks {<br>
+  width: 620px;<br>
+  position: relative; margin: 0; padding: 0;<br>
+  }</p>
+<p>#kwicks li{<br>
+  /* these are required, but the values are up to you (must be pixel) */<br>
+  width: 150px; height: 170px;<br>
+  /*do not change these */<br>
+  display: block;	overflow: hidden; padding: 0; margin: 0;<br>
+  }</p>
+<p>#kwicks .kwick_1 {	background: url(../images/kwicks/druckknoepfe2.jpg) no-repeat; }<br>
+  #kwicks .kwick_2 {	background: url(../images/kwicks/ringe2.jpg) no-repeat; }<br>
+  #kwicks .kwick_3 {	background: url(../images/kwicks/anhaenger2.jpg) no-repeat; }<br>
+  #kwicks .kwick_4 {	background: url(../images/kwicks/armbaender2.jpg) no-repeat; }</p>
+<p>#kwicks a {<br>
+  width: 250px; height: 170px;<br>
+  display: block;<br>
+  }<br>
+</p>
+<p>/* ##########  BUTTONS  ########## */</p>
+<p>.button {<br>
+  display: inline-block; *display: inline; margin: 0 2px; padding: .5em 2em .55em; outline: none; cursor: pointer;<br>
+  font: 14px/100% Arial, Helvetica, sans-serif; text-shadow: 0 1px 1px rgba(0,0,0,.3); text-decoration: none; vertical-align: baseline; text-align: center;<br>
+  -webkit-border-radius: .5em; -moz-border-radius: .5em; border-radius: .5em;<br>
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); box-shadow: 0 1px 2px rgba(0,0,0,.2);<br>
+  zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */<br>
+  }</p>
+<p>.button:hover {<br>
+  text-decoration: none;<br>
+  }</p>
+<p>.button:active {<br>
+  position: relative;<br>
+  top: 1px;<br>
+  }</p>
+<p>.bigrounded {<br>
+  -webkit-border-radius: 2em; -moz-border-radius: 2em; border-radius: 2em;<br>
+  }</p>
+<p>.medium {<br>
+  padding: .4em 1.5em .42em;<br>
+  font-size: 12px;<br>
+  }<br>
+  .small {<br>
+  padding: .2em 1em .275em;<br>
+  font-size: 11px;<br>
+  }</p>
+<p>.gray {<br>
+  color: #e9e9e9;<br>
+  border: solid 1px #555;<br>
+  background: #6e6e6e;<br>
+  background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));<br>
+  background: -moz-linear-gradient(top,  #888,  #575757);<br>
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');<br>
+  }<br>
+  .gray:hover {<br>
+  background: #616161;<br>
+  background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));<br>
+  background: -moz-linear-gradient(top,  #757575,  #4b4b4b);<br>
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');<br>
+  }<br>
+  .gray:active {<br>
+  color: #afafaf;<br>
+  background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));<br>
+  background: -moz-linear-gradient(top,  #575757,  #888);<br>
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#888888');<br>
+  }</p>
