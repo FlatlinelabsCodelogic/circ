@@ -5,8 +5,7 @@ require_once("user.class.php");
 
 parse_str(http_build_query($_POST), $post);
 parse_str($post['data']);
-error_log("username : ".$semail);
-error_log("password : ".md5($spass));
+
 
 $db = new MysqliDb('localhost','circ','circ','circ');
 $db->where ("user_name", $semail);

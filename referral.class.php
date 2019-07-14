@@ -3,10 +3,11 @@
 
 class Referral
 {
-
-
-    //rivate $referralCode;
     private $db;
+    public $_referralCode;
+    public $_referralUser;
+    public $_isValid;
+    public $_referralCount;
 
     public function __construct() {
 
@@ -15,9 +16,41 @@ class Referral
     /**
      * @return mixed
      */
+    public function getisValid()
+    {
+        return $this->_isValid;
+    }
+
+    /**
+     * @param mixed $isValid
+     */
+    public function setIsValid($isValid)
+    {
+        $this->_isValid = $isValid;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getReferralCount()
+    {
+        return $this->_referralCount;
+    }
+
+    /**
+     * @param mixed $referralCount
+     */
+    public function setReferralCount($referralCount)
+    {
+        $this->_referralCount = $referralCount;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getReferralCode()
     {
-        return $this->referralCode;
+        return $this->_referralCode;
     }
 
     /**
@@ -25,7 +58,7 @@ class Referral
      */
     public function setReferralCode($referralCode)
     {
-        $this->referralCode = $referralCode;
+        $this->_referralCode = $referralCode;
     }
 
     public function isValid($db){

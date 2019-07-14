@@ -8,22 +8,23 @@
 
 
 
-class user
+class User
 {
-    protected  $_id;
-    protected  $_firstname;
-    protected  $_lastname;
-    protected  $_cc;
-    protected  $_email;
-    protected  $_user_id;
-    protected  $_user_name;
-    protected  $_birthday;
-    protected  $_city;
-    protected  $_date_joined;
-    protected  $_gender;
-    protected  $_notifications;
-    protected  $_state;
-    protected  $_status;
+    public  $_id;
+    public  $_firstname;
+    public  $_lastname;
+    public  $_cc;
+    public  $_email;
+    public  $_user_id;
+    public  $_user_name;
+    public  $_birthday;
+    public  $_city;
+    public  $_date_joined;
+    public  $_gender;
+    public  $_notifications;
+    public  $_state;
+    public  $_status;
+    public  $_phone;
 
     /**
      * @return mixed

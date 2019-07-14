@@ -3,8 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MageSlayer</title>
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title></title>
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
 <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
@@ -12,10 +14,7 @@
 <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
 <link rel="stylesheet" href="css/signup.css">
 
-<script src="js/jquery.min.js"></script>
-<script src="sidr/jquery.sidr.min.js"></script>
-<script type="text/javascript" src="js/smoothscroll.js"></script>
-<script type="text/javascript"  src="js/signup.js"></script>
+
 
 </head>
 
@@ -32,9 +31,10 @@
                 </div>
             	<div class="menu" id="navigation">
             		<ul>
-<!--                    	<li><a href="signup1.php">Join Today</a></li>-->
-                        <li><a href="signin.php">Sign In</a></li>
-                       
+                    	<li><a href="signup.php" style="text-decoration:none;color:#ffffff;">Join Today</a></li>
+                        <li><a href="signin.php"  style="text-decoration:none;color:#ffffff;">Sign In</a></li>
+                        <li><a href="ClassesAll.php"  style="text-decoration:none;color:#ffffff;">View Classes</a>  </li>
+                        <li><a href="mediaUpload.php"  style="text-decoration:none;color:#ffffff;">Video Uploader</a></li>
                     </ul>
             	</div>
         	</div>
@@ -207,5 +207,8 @@
 			}
 			);
 		</script>
+    <script src="sidr/jquery.sidr.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript"  src="js/signup.js"></script>
 </body>
 </html>

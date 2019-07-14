@@ -1,6 +1,13 @@
 <?php
-
-
+session_start();
+//echo "<pre>";
+//if(isset($_SESSION['refferalObject'])) {
+//    print_r(unserialize($_SESSION['refferalObject']));
+//}
+//if(isset($_SESSION['userObject'])) {
+//}
+//    print_r(unserialize($_SESSION['userObject']));
+//echo "</pre>";
 
 
 require 'html.php';
@@ -25,9 +32,9 @@ echo html::sHEAD;
 ?>
     <meta charset="UTF-8">
     <title>TITLE</title>
-    <script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <!-- jQuery easing plugin -->
-    <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/signup.css">
     <script type="text/javascript"  src="js/signup.js"></script>
@@ -72,18 +79,25 @@ echo html::sBODY;
                     <div class="error1"> &nbsp;</div>
                 </div>
                 <?php
-                    if(html::f1Placeholder) {
-                        ?><input type=<?=html::f1type?> id="f1" name="f1" placeholder=<?=html::f1Placeholder?> ><?php
-                    }
-                    if(html::f2Placeholder) {
-                        ?><input type=<?=html::f2type?> id="f2" name="f2" placeholder=<?=html::f2Placeholder?> ><?php
-                    }
-                    if(html::f3Placeholder) {
-                        ?><input type=<?=html::f3type?> id="f3" name="f3" placeholder=<?=html::f3Placeholder?> ><?php
-                    }
-                    if(html::f4Placeholder) {
-                        ?><input type=<?=html::f4type?> id="f4" name="f4" placeholder=<?=html::f4Placeholder?> ><?php
-                    }
+                if(html::f5Placeholder) {
+                    ?><input type=<?=html::f5type?> id="f5" name="f5" placeholder="<?=html::f5Placeholder?>" ><?php
+                }
+                if(html::f6Placeholder) {
+                    ?><input type=<?=html::f6type?> id="f6" name="f6" placeholder="<?=html::f6Placeholder?> "><?php
+                }
+                if(html::f14Placeholder) {
+                    ?><input type=<?=html::typeTEXT?> id="f14" name="f14" placeholder=<?=html::f14Placeholder?> ><?php
+                }
+                if(html::f7Placeholder) {
+                    ?><input type=<?=html::f7type?> id="f7" name="f7" placeholder=<?=html::f7Placeholder?> ><?php
+                }
+                if(html::f8Placeholder) {
+                    ?><input type=<?=html::f8type?> id="f8" name="f8" placeholder=<?=html::f8Placeholder?> ><?php
+                }
+
+                if(html::f13Placeholder) {
+                    ?><input type=<?=html::f13type?> id="f13" name="f13" placeholder=<?=html::f13Placeholder?> ><?php
+                }
                 ?>
                 <input type="button" name="next" class="next action-button" value="Continue" />
                 <div style="clear:both;">&nbsp;</div>
@@ -95,21 +109,22 @@ echo html::sBODY;
                     <div class="error2">&nbsp;</div>
                 </div>
                 <?php
-                if(html::f5Placeholder) {
-                    ?><input type=<?=html::f5type?> id="f5" name="f5" placeholder=<?=html::f5Placeholder?> ><?php
+                if(html::f1Placeholder) {
+                    ?><input type=<?=html::f1type?> id="f1" name="f1" placeholder="<?=html::f1Placeholder?> "><?php
                 }
-                if(html::f6Placeholder) {
-                    ?><input type=<?=html::f6type?> id="f6" name="f6" placeholder=<?=html::f6Placeholder?> ><?php
+                if(html::f2Placeholder) {
+                    ?><input type=<?=html::f2type?> id="f2" name="f2" placeholder="<?=html::f2Placeholder?> "><?php
                 }
-                if(html::f7Placeholder) {
-                    ?><input type=<?=html::f7type?> id="f7" name="f7" placeholder=<?=html::f7Placeholder?> ><?php
+                if(html::f15Placeholder) {
+                    ?><input type=<?=html::typeTEXT?> id="f15" name="f15" placeholder="<?=html::f15Placeholder?>" ><?php
                 }
-                if(html::f8Placeholder) {
-                    ?><input type=<?=html::f8type?> id="f8" name="f8" placeholder=<?=html::f8Placeholder?> ><?php
+                if(html::f3Placeholder) {
+                    ?><input type=<?=html::f3type?> id="f3" name="f3" placeholder="<?=html::f3Placeholder?>" ><?php
                 }
-                if(html::f13Placeholder) {
-                    ?><input type=<?=html::f13type?> id="f13" name="f13" placeholder=<?=html::f13Placeholder?> ><?php
+                if(html::f4Placeholder) {
+                    ?><input type=<?=html::f4type?> id="f4" name="f4" placeholder="<?=html::f4Placeholder?> "><?php
                 }
+
 
                 ?>
                 <!--<input type="text" id="f4" name="f4" placeholder="Address" />
@@ -129,16 +144,23 @@ echo html::sBODY;
                 </div>
                 <?php
                 if(html::f9Placeholder) {
-                    ?><input type=<?=html::f9type?> id="f9" name="f9" placeholder=<?=html::f9Placeholder?> ><?php
+                    ?><input type=<?=html::f9type?> id="f9" name="f9" placeholder="<?=html::f9Placeholder?> "><?php
                 }
+                ?>
+                <div style=";margin-top:0px;margin-bottom:12px;padding:10px;font-size:14px;text-align:left;color: #1C97CA;
+">There will be a $50.00 registration fee charged to your credit card after you complete the sign up process.</div>
+                <?php
                 if(html::f10Placeholder) {
-                    ?><input type=<?=html::f10type?> id="f10" name="f10" placeholder=<?=html::f10Placeholder?> ><?php
+                    ?><input type=<?=html::f10type?> id="f10" name="f10" placeholder="<?=html::f10Placeholder?>" ><?php
                 }
                 if(html::f11Placeholder) {
-                    ?><input type=<?=html::f11type?> id="f11" name="f11" placeholder=<?=html::f11Placeholder?> ><?php
+                    ?><input type=<?=html::f11type?> id="f11" name="f11" placeholder="<?=html::f11Placeholder?>" ><?php
                 }
                 if(html::f12Placeholder) {
-                    ?><input type=<?=html::f12type?> id="f12" name="f12" placeholder=<?=html::f12Placeholder?> ><?php
+                    ?><input type=<?=html::f12type?> id="f12" name="f12" placeholder="<?=html::f12Placeholder?>" ><?php
+                }
+                if(html::f16Placeholder) {
+                    ?><input type=<?=html::typeTEXT?> id="f16" name="f16" placeholder="<?=html::f16Placeholder?>" ><?php
                 }
                 ?>
 

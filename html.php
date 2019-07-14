@@ -33,17 +33,20 @@ class html {
     const f3Placeholder = "Password";
     const f4Placeholder = 'Confirm password';
 
-    const f5Placeholder = "Firstname";
-    const f6Placeholder = "Lastname";
+    const f5Placeholder = "First Name";
+    const f6Placeholder = "Last Name";
     const f7Placeholder = "City";
     const f8Placeholder = "State";
 
-    const f9Placeholder = "CreditCard";
-    const f10Placeholder = "Expiration(MM/YY)";
+    const f9Placeholder = "Credit Card";
+    const f10Placeholder = "Expiration Date (MM/YY)";
     const f11Placeholder = "CVV";
     const f12Placeholder = "Zipcode";
 
     const f13Placeholder = "Phone";
+    const f14Placeholder = "Address";
+    const f15Placeholder = "Zoom ID";
+    const f16Placeholder = "Referral Code";
 
     const f1type = self::typeTEXT;
     const f2type = self::typeEMAIL;

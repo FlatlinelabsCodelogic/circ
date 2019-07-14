@@ -47,8 +47,7 @@ session_start();
                 <h1><a href="index.php">img src="images/logo_sm2.png" width="53" height="52" /</a></h1>
         </div>-->
         <!--<a id="simple-menu" href="#sidr">Toggle menu</a>-->
-        <!--<div id="mobile-header">
-            <a class="responsive-menu-button" href="#"><img src="images/11.png"/></a>
+        <!--<div id="mobile-header">          <a class="responsive-menu-button" href="#"><img src="images/11.png"/></a>
         </div>-->
         <div class="menu" id="navigation">
             <ul>
@@ -118,7 +117,7 @@ session_start();
                         </span>
                         <span data-ng-switch-default>{{file.name}}</span>
                     </p>
-                    <strong data-ng-show="file.error" class="error text-danger">{{file.error}}</strong>
+                    <strong data-ng-show="file.error" class="error text-danger">{{file.error}}Done</strong>
                 </td>
                 <td>
 <!--                    <p class="size">{{file.size | formatFileSize}}</p>-->

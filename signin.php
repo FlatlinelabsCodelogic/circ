@@ -1,4 +1,4 @@
-
+<?php
 session_start();
 
 require 'Request.php';
@@ -28,13 +28,15 @@ require 'html.php';
     <head>
     <meta charset="UTF-8">
     <title>TITLE</title>
-    <script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.js"></script>
+
+        <script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <!-- jQuery easing plugin -->
     <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lostPassword.css">
     <link rel="stylesheet" href="css/signup.css">
-    <script type="text/javascript"  src="js/signup.js"></script>
+<!--    <script type="text/javascript"  src="js/signup.js"></script>-->
 </head>
 <body>
 
